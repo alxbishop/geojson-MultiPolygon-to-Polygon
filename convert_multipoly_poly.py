@@ -4,7 +4,7 @@ from pathlib import Path
 
 #%% Import input AOI file
 
-input_file = input("Provie path to file:")
+input_file = input("Provide relative path to file:")
 input_as_path = Path(input_file)
 
 with open(f"{input_file}", 'r') as ir:
